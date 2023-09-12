@@ -1,7 +1,7 @@
 /* Logo Slider */
 
 .logo-slider {
-	background: white;
+	background: red;
 	-webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.155);
 	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.155);
 	margin: auto;
@@ -14,9 +14,9 @@
 	background: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
 	background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
 	content: "";
-	height: 220px;
+	height: 20rem;
 	position: absolute;
-	width: 220px;
+	width: 200px;
 	z-index: 2;
 }
 
@@ -31,7 +31,11 @@
 	left: 0;
 	top: 0;
 }
-
+.logo-slide-track img{
+	width: 20rem; 
+	/* you can resize your images by changing this width */
+	height: auto;
+}
 .logo-slider .logo-slide-track {
 	-webkit-animation: logo-scroll 60s linear infinite;
 	animation: logo-scroll 60s linear infinite;
@@ -44,8 +48,8 @@
 }
 
 .logo-slider .slide {
-	height: 216px;
-	width: 250px;
+	width: 30rem;
+	height: auto;
 	padding: 2px;
 }
 
